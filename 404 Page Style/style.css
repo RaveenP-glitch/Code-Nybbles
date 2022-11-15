@@ -1,9 +1,9 @@
 /* 404 Page styles */
 
 .page_404{
-    padding: 40px 0;
+    padding: 5px 0;
     background: #fff;
-    font-family: "Arvo", serif;
+    font-family: "Sans", serif;
 }
 
 .page_404 image{
@@ -28,10 +28,26 @@
     color: #fff !important;
     padding: 10px 20px;
     background: #39ac31;
-    margin: 20px 0;
+    margin: 10px 0;
     display: inline-block;
+    border-radius: 5px;
+    text-decoration: solid;
+
+}
+
+.link_404:hover{
+    top: 2px;
+    background: #308f29;
 }
 
 .content_box_404{
-    margin: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text_center{
+    align-items: center;
+    text-align: center;
 }
